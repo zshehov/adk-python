@@ -12,12 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Credential exchanger module."""
+"""Credential refresher module."""
 
-from .base_credential_exchanger import BaseCredentialExchanger
-from .service_account_credential_exchanger import ServiceAccountCredentialExchanger
+from .base_credential_refresher import BaseCredentialRefresher
 
 __all__ = [
-    "BaseCredentialExchanger",
-    "ServiceAccountCredentialExchanger",
+    "BaseCredentialRefresher",
 ]
